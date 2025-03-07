@@ -1,0 +1,13 @@
+{
+    "variants": {
+        "age=0": { "model": "dt_mario_mixup:block/fruit/super_acorn_age0" },
+        "age=1": { "model": "dt_mario_mixup:block/fruit/super_acorn_age1" },
+        "age=2": { "model": "dt_mario_mixup:block/fruit/super_acorn_age2" },
+        "age=3": [
+			{ "model": "dt_mario_mixup:block/fruit/super_acorn_age3" },
+			{ "model": "dt_mario_mixup:block/fruit/super_acorn_age3", "y": 90 },
+			{ "model": "dt_mario_mixup:block/fruit/super_acorn_age3", "y": 180 },
+			{ "model": "dt_mario_mixup:block/fruit/super_acorn_age3", "y": 270 }
+		]
+    }
+}

@@ -1,0 +1,20 @@
+{
+	"credit": "Made with Blockbench",
+	"ambientocclusion": false,
+	"textures": {
+		"particle": "dt_mario_mixup:block/super_leaf",
+		"fruit": "dt_mario_mixup:block/super_leaf"
+	},
+	"elements": [
+		{
+			"from": [8, 11, 6.5],
+			"to": [8, 16, 9.5],
+			"shade": false,
+			"rotation": {"angle": -45, "axis": "y", "origin": [7.99999, 13.5, 8.00001]},
+			"faces": {
+				"east": {"uv": [11, 0, 14, 5], "texture": "#fruit"},
+				"west": {"uv": [11, 0, 14, 5], "texture": "#fruit"}
+			}
+		}
+	]
+}

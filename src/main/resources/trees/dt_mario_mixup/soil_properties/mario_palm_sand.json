@@ -1,0 +1,4 @@
+{
+  "primitive_soil": "mario:palm_sand",
+  "acceptable_soils": [ "sand_like" ]
+}

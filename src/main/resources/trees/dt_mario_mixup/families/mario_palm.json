@@ -1,0 +1,11 @@
+{
+  "type": "palm",
+  "primitive_log": "mario:palm_block",
+  "common_leaves": "dt_mario_mixup:mario_palm",
+  "common_species": "dt_mario_mixup:mario_palm",
+  "generate_stripped_branch": false,
+  "loot_volume_multiplier": 2.0,
+  "max_branch_radius": 10,
+  "primary_thickness": 2,
+  "secondary_thickness": 3
+}

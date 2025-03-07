@@ -1,0 +1,6 @@
+{
+  "multipart": [
+    { "apply": { "model": "mario:block/fun_grass" } },
+    { "apply": { "model": "dynamictrees:block/roots" } }
+  ]
+}

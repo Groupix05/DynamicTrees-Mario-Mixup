@@ -1,0 +1,6 @@
+{
+  "only_if_loaded": "dynamictreesplus",
+  "primitive_cap": "mario:kingdom_mushroom_block",
+  "material_color": "COLOR_RED",
+  "mushroom_item": "mario:red_mushroom"
+}

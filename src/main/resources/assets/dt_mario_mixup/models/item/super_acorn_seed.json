@@ -1,0 +1,6 @@
+{
+  "parent": "dynamictrees:item/standard_seed",
+  "textures": {
+    "layer0": "dt_mario_mixup:item/super_acorn_seed"
+  }
+}

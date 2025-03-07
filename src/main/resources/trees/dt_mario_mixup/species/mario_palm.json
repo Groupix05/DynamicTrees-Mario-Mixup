@@ -1,0 +1,27 @@
+{
+  "type": "palm",
+  "family": "dt_mario_mixup:mario_palm",
+  "leaves_properties": "dt_mario_mixup:mario_palm",
+  "transformable": false,
+  "growth_rate": 0.9,
+  "max_branch_radius": 10,
+  "signal_energy": 14.0,
+  "tapering": 0.2,
+  "up_probability": 0,
+  "environment_factors" : {
+    "cold": 0.75,
+    "dry": 1.1,
+    "hot": 1.1
+  },
+  "perfect_biomes": { "name": "mario:isle_delfino" },
+  "acceptable_soils": [ "dirt_like", "sand_like" ],
+  "growth_logic_kit": {
+    "name": "palm",
+    "properties": {
+      "height_variation": 5
+    }
+  },
+  "features" : [
+    "bottom_flare"
+  ]
+}

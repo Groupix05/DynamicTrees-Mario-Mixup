@@ -1,0 +1,35 @@
+{
+	"credit": "Made with Blockbench",
+	"ambientocclusion": false,
+	"textures": {
+		"particle": "dt_mario_mixup:block/super_acorn",
+		"fruit": "dt_mario_mixup:block/super_acorn"
+	},
+	"elements": [
+		{
+			"from": [7, 12, 7],
+			"to": [9, 14, 9],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 14, 8]},
+			"faces": {
+				"north": {"uv": [4, 7, 6, 9], "texture": "#fruit"},
+				"east": {"uv": [4, 7, 6, 9], "texture": "#fruit"},
+				"south": {"uv": [4, 7, 6, 9], "texture": "#fruit"},
+				"west": {"uv": [4, 7, 6, 9], "texture": "#fruit"},
+				"down": {"uv": [4, 10, 6, 12], "texture": "#fruit"}
+			}
+		},
+		{
+			"from": [6.5, 14, 6.5],
+			"to": [9.5, 16, 9.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 14, 8]},
+			"faces": {
+				"north": {"uv": [4, 4, 7, 6], "texture": "#fruit"},
+				"east": {"uv": [4, 4, 7, 6], "texture": "#fruit"},
+				"south": {"uv": [4, 4, 7, 6], "texture": "#fruit"},
+				"west": {"uv": [4, 4, 7, 6], "texture": "#fruit"},
+				"up": {"uv": [4, 0, 7, 3], "texture": "#fruit"},
+				"down": {"uv": [4, 0, 7, 3], "texture": "#fruit"}
+			}
+		}
+	]
+}

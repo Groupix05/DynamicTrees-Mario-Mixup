@@ -1,0 +1,40 @@
+{
+    "family": "jungle",
+    "leaves_properties": "jungle",
+    "mega_species": "dt_mario_mixup:mega_soda_jungle",
+    "generate_sapling": false,
+    "generate_seed": false,
+    "growth_rate": 1.0,
+    "lowest_branch_height": 2,
+    "signal_energy": 24.0,
+    "tapering": 0.2,
+    "up_probability": 3,
+    "environment_factors" : {
+        "#forge:is_cold": 0.15,
+        "#forge:is_dry": 0.2,
+        "#forge:is_hot": 1.1,
+        "#forge:is_wet": 1.1
+    },
+    "perfect_biomes": { "name": "mario:soda_jungle" },
+    "growth_logic_kit": {
+        "name": "jungle",
+        "properties": {
+            "height_variation": 12
+        }
+    },
+    "features" : [
+        {
+            "name": "vines",
+            "properties": {
+                "quantity": 16,
+                "max_length": 16
+            }
+        },
+        {
+            "name": "undergrowth",
+            "properties": {
+                "undergrowth_species": "dt_mario_mixup:soda_jungle_undergrowth"
+            }
+        }
+    ]
+}

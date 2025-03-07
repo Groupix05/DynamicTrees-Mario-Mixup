@@ -1,0 +1,15 @@
+{
+  "only_if_loaded": "dynamictreesplus",
+  "primitive_log": "mario:kingdom_mushroom_stem",
+  "type": "dynamictreesplus:mushroom",
+  "common_cap": "dt_mario_mixup:kingdom_mushroom",
+  "common_species": "dt_mario_mixup:kingdom_mushroom",
+  "stick": "air",
+  "generate_stripped_branch": false,
+  "max_branch_radius": 24,
+  "max_signal_depth": 64,
+  "texture_overrides": {
+    "branch": "mario:block/kingdommushroomstem",
+    "branch_top": "mario:block/kingdommushroomstemtop"
+  }
+}

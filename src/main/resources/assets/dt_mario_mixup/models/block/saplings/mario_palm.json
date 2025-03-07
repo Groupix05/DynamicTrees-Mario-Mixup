@@ -1,0 +1,8 @@
+{
+  "parent": "dynamictrees:block/smartmodel/sapling",
+  "render_type": "minecraft:cutout_mipped",
+  "textures": {
+    "leaves": "mario:block/jungle_leaves",
+    "log": "mario:block/dark_oak_log"
+  }
+}

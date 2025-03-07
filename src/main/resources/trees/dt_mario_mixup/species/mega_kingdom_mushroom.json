@@ -1,0 +1,37 @@
+{
+  "only_if_loaded": "dynamictreesplus",
+  "type": "dynamictreesplus:mushroom",
+  "family": "dt_mario_mixup:kingdom_mushroom",
+  "cap_properties": "dt_mario_mixup:kingdom_mushroom",
+  "mushroom_shape_kit": {
+    "name": "dynamictreesplus:bell",
+    "properties": {
+      "max_cap_age": 8,
+      "max_age_curve_factor": 0.4
+    }
+  },
+  "growth_rate": 1.2,
+  "max_branch_radius": 24,
+  "signal_energy": 12,
+  "soil_longevity": 3,
+  "tapering": 0.9,
+  "up_probability": 0,
+  "acceptable_soils": [ "dirt_like", "fungus_like" ],
+  "perfect_biomes": { "name": "mario:level_one" },
+  "features" : [
+    "bottom_flare",
+    {
+      "name": "mushroom_rot",
+      "properties": {
+		"mushroom": "mario:red_mushroom",
+        "alternate_mushroom_chance": 1
+      }
+    },
+    {
+      "name": "mound",
+      "properties": {
+        "mound_cutoff_radius": 999
+      }
+    }
+  ]
+}

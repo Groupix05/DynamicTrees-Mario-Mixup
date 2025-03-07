@@ -1,0 +1,7 @@
+{
+  "parent": "dynamictrees:item/branch",
+  "textures": {
+    "bark": "mario:block/kingdommushroomstem",
+    "rings": "mario:block/kingdommushroomstemtop"
+  }
+}

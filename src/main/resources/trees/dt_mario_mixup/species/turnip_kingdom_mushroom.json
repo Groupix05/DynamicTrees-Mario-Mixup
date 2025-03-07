@@ -1,0 +1,43 @@
+{
+  "only_if_loaded": "dynamictreesplus",
+  "type": "dynamictreesplus:mushroom",
+  "family": "dt_mario_mixup:kingdom_mushroom",
+  "cap_properties": "dt_mario_mixup:turnip_kingdom_mushroom",
+  "mushroom_shape_kit": {
+    "name": "dynamictreesplus:bell",
+    "properties": {
+      "max_cap_age": 5,
+      "max_age_curve_factor": 0.05,
+      "min_age_curve_factor": 0.2,
+      "curve_factor_variation": 0.05
+    }
+  },
+  "primitive_sapling": "mario:red_mushroom",
+  "generate_sapling": false,
+  "generate_seed": false,
+  "growth_rate": 1.2,
+  "max_branch_radius": 24,
+  "signal_energy": 8,
+  "soil_longevity": 12,
+  "tapering": 0,
+  "up_probability": 0,
+  "acceptable_soils": [ "dirt_like", "fungus_like" ],
+  "common_override": { "name": "mario:turnip_valley" },
+  "perfect_biomes": { "name": "mario:turnip_valley" },
+  "features" : [
+    "bottom_flare",
+    {
+      "name": "mushroom_rot",
+      "properties": {
+		"mushroom": "mario:red_mushroom",
+        "alternate_mushroom_chance": 1
+      }
+    },
+    {
+      "name": "mound",
+      "properties": {
+        "mound_cutoff_radius": 999
+      }
+    }
+  ]
+}

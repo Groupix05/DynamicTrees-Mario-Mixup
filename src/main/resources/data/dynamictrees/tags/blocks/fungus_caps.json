@@ -1,0 +1,6 @@
+{
+  "values": [
+    { "id": "dt_mario_mixup:kingdom_mushroom_sapling", "required": false },
+    { "id": "dt_mario_mixup:turnip_kingdom_mushroom_sapling", "required": false }
+  ]
+}

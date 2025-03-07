@@ -1,0 +1,6 @@
+{
+  "values": [
+    { "id": "dt_mario_mixup:acorn_leaves", "required": false },
+    { "id": "dt_mario_mixup:mario_palm_leaves", "required": false }
+  ]
+}

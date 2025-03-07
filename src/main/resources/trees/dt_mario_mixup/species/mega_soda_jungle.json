@@ -1,0 +1,57 @@
+{
+    "family": "jungle",
+    "leaves_properties": "jungle",
+    "generate_sapling": false,
+    "generate_seed": false,
+    "growth_rate": 1.2,
+    "lowest_branch_height": 8,
+    "max_branch_radius": 24,
+    "signal_energy": 35.0,
+    "soil_longevity": 12,
+    "tapering": 0.17,
+    "up_probability": 10,
+    "world_gen_leaf_map_height": 40,
+    "environment_factors" : {
+        "#forge:is_cold": 0.15,
+        "#forge:is_dry": 0.2,
+        "#forge:is_hot": 1.1,
+        "#forge:is_wet": 1.1
+    },
+    "perfect_biomes": { "name": "mario:soda_jungle" },
+    "growth_logic_kit": {
+        "name": "jungle",
+        "properties": {
+            "branch_out_chance": 3,
+            "canopy_height": 25
+        }
+    },
+    "features" : [
+        "bottom_flare",
+        {
+            "name": "clear_volume",
+            "properties": {
+                "height": 20
+            }
+        },
+        {
+            "name": "mound",
+            "properties": {
+                "mound_cutoff_radius": 999
+            }
+        },
+        {
+            "name": "roots",
+            "properties": {
+                "min_trunk_radius": 9,
+                "scale_factor": 20
+            }
+        },
+        {
+            "name": "vines",
+            "properties": {
+                "quantity": 16,
+                "max_length": 16
+            }
+        }
+    ]
+}

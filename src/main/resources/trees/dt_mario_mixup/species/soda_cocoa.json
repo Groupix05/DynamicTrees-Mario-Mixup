@@ -1,0 +1,33 @@
+{
+    "family": "jungle",
+    "leaves_properties": "jungle",
+    "drop_seeds": false,
+    "generate_sapling": false,
+    "generate_seed": false,
+    "growth_rate": 1.5,
+    "lowest_branch_height": 3,
+    "signal_energy": 10.0,
+    "soil_longevity": 3,
+    "tapering": 0.2,
+    "up_probability": 1,
+    "environment_factors" : {
+        "#forge:is_cold": 0.3,
+        "#forge:is_dry": 0.4,
+        "#forge:is_hot": 1.1,
+        "#forge:is_wet": 1.1
+    },
+    "perfect_biomes": { "name": "mario:soda_jungle" },
+    "pods": [
+        "cocoa"
+    ],
+    "features" : [
+        {
+            "name": "pod",
+            "properties": {
+                "pod": "cocoa",
+                "fruiting_radius": 4,
+                "blocks_per_pod": 8
+            }
+        }
+    ]
+}

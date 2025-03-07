@@ -1,0 +1,93 @@
+{
+  "has_precipitation": true,
+  "temperature": 0.5,
+  "downfall": 0.5,
+  "effects": {
+    "foliage_color": -16737509,
+    "grass_color": -16727775,
+    "sky_color": -8859905,
+    "fog_color": -8859905,
+    "water_color": -12996097,
+    "water_fog_color": -4136973
+  },
+  "spawners": {
+    "monster": [
+      {
+        "type": "guardian",
+        "weight": 4,
+        "minCount": 1,
+        "maxCount": 2
+      },
+      {
+        "type": "zombie",
+        "weight": 25,
+        "minCount": 1,
+        "maxCount": 4
+      },
+      {
+        "type": "skeleton",
+        "weight": 20,
+        "minCount": 1,
+        "maxCount": 2
+      },
+      {
+        "type": "creeper",
+        "weight": 12,
+        "minCount": 1,
+        "maxCount": 2
+      }
+    ],
+    "creature": [
+      {
+        "type": "turtle",
+        "weight": 20,
+        "minCount": 1,
+        "maxCount": 4
+      },
+      {
+        "type": "squid",
+        "weight": 20,
+        "minCount": 2,
+        "maxCount": 5
+      }
+    ],
+    "ambient": [],
+    "axolotls": [],
+    "underground_water_creature": [],
+    "water_creature": [
+      {
+        "type": "dolphin",
+        "weight": 28,
+        "minCount": 1,
+        "maxCount": 1
+      },
+      {
+        "type": "tropical_fish",
+        "weight": 35,
+        "minCount": 4,
+        "maxCount": 8
+      }
+    ],
+    "water_ambient": [],
+    "misc": []
+  },
+  "spawn_costs": {},
+  "carvers": {},
+  "features": [
+    [],
+    [],
+    [],
+    [],
+    [
+      "minecraft:desert_well"
+    ],
+    [],
+    [],
+    [],
+    [],
+    [
+      "minecraft:seagrass_simple"
+    ],
+    []
+  ]
+}

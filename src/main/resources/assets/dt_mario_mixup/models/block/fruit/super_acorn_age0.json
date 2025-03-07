@@ -1,0 +1,30 @@
+{
+	"credit": "Made with Blockbench",
+	"ambientocclusion": false,
+	"textures": {
+		"particle": "dt_mario_mixup:block/super_acorn",
+		"fruit": "dt_mario_mixup:block/super_acorn"
+	},
+	"elements": [
+		{
+			"from": [7, 15, 8],
+			"to": [9, 16, 8],
+			"shade": false,
+			"rotation": {"angle": 45, "axis": "y", "origin": [8, 8, 8], "rescale": true},
+			"faces": {
+				"north": {"uv": [8, 15, 12, 16], "texture": "#fruit"},
+				"south": {"uv": [8, 15, 12, 16], "texture": "#fruit"}
+			}
+		},
+		{
+			"from": [8, 15, 7],
+			"to": [8, 16, 9],
+			"shade": false,
+			"rotation": {"angle": 45, "axis": "y", "origin": [8, 8, 8], "rescale": true},
+			"faces": {
+				"east": {"uv": [8, 15, 12, 16], "texture": "#fruit"},
+				"west": {"uv": [8, 15, 12, 16], "texture": "#fruit"}
+			}
+		}
+	]
+}

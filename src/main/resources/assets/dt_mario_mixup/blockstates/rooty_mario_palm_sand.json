@@ -1,0 +1,6 @@
+{
+  "multipart": [
+    { "apply": { "model": "mario:block/palm_sand" } },
+    { "apply": { "model": "dynamictrees:block/roots" } }
+  ]
+}

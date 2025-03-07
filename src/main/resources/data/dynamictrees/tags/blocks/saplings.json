@@ -1,0 +1,7 @@
+{
+  "values": [
+    { "id": "dt_mario_mixup:mario_palm_sapling", "required": false },
+    { "id": "dt_mario_mixup:super_acorn_sapling", "required": false },
+    { "id": "dt_mario_mixup:super_leaf_sapling", "required": false }
+  ]
+}

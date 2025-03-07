@@ -1,0 +1,8 @@
+{
+  "type": "spreadable",
+  "primitive_soil": "mario:mushroom_dirt",
+  "acceptable_soils": [ "dirt_like", "fungus_like" ],
+
+  "required_light": 9,
+  "spreadable_soils": [ "dt_mario_mixup:mario_fun_grass", "dt_mario_mixup:mario_jungle_grass", "dt_mario_mixup:mario_mushroom_grass", "dt_mario_mixup:mario_world_3_grass" ]
+}

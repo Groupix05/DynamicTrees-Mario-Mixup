@@ -1,0 +1,6 @@
+{
+  "multipart": [
+    { "apply": { "model": "mario:block/dry_dry_sand" } },
+    { "apply": { "model": "dynamictrees:block/roots" } }
+  ]
+}

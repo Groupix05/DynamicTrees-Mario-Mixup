@@ -1,0 +1,66 @@
+{
+  "multipart": [
+    {
+      "when": {
+        "age": "0"
+      },
+      "apply": {
+        "model": "dt_mario_mixup:block/mushroom/kingdom_mushroom_cap_center_age0"
+      }
+    },
+    {
+      "when": {
+        "age": "1|2|3|4|5|6|7|8"
+      },
+      "apply": {
+        "model": "mario:block/kingdom_mushroom_block",
+        "x": 270,
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "age": "1|2|3|4|5|6|7|8"
+      },
+      "apply": {
+        "model": "minecraft:block/mushroom_block_inside"
+      }
+    },
+    {
+      "when": {
+        "age": "1|2|3|4|5|6|7|8"
+      },
+      "apply": {
+        "model": "minecraft:block/mushroom_block_inside",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "age": "1|2|3|4|5|6|7|8"
+      },
+      "apply": {
+        "model": "minecraft:block/mushroom_block_inside",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "age": "1|2|3|4|5|6|7|8"
+      },
+      "apply": {
+        "model": "minecraft:block/mushroom_block_inside",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "age": "1|2|3|4|5|6|7|8"
+      },
+      "apply": {
+        "model": "minecraft:block/mushroom_block_inside",
+        "x": 90
+      }
+    }
+  ]
+}

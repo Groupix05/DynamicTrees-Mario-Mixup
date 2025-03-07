@@ -1,0 +1,11 @@
+{
+  "values": [
+    { "id": "dt_mario_mixup:rooty_mario_dry_dry_sand", "required": false },
+    { "id": "dt_mario_mixup:rooty_mario_fun_grass", "required": false },
+    { "id": "dt_mario_mixup:rooty_mario_jungle_grass", "required": false },
+    { "id": "dt_mario_mixup:rooty_mario_mushroom_dirt", "required": false },
+    { "id": "dt_mario_mixup:rooty_mario_mushroom_grass", "required": false },
+    { "id": "dt_mario_mixup:rooty_mario_palm_sand", "required": false },
+    { "id": "dt_mario_mixup:rooty_mario_world_3_grass", "required": false }
+  ]
+}

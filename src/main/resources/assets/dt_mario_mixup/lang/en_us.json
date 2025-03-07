@@ -1,0 +1,26 @@
+{
+  "tooltip.waila.crop_growth": "Growth: %s",
+  "tooltip.waila.crop_mature": "Mature",
+
+  "block.dt_mario_mixup.acorn_branch": "Acorn Tree",
+  "block.dt_mario_mixup.kingdom_mushroom_branch": "Kingdom Mushroom",
+  "block.dt_mario_mixup.mario_palm_branch": "Palm Tree",
+
+  "species.dt_mario_mixup.kingdom_mushroom": "Kingdom Mushroom",
+  "species.dt_mario_mixup.mario_palm": "Palm",
+  "species.dt_mario_mixup.mega_acorn": "Mega Acorn",
+  "species.dt_mario_mixup.mega_kingdom_mushroom": "Mega Kingdom Mushroom",
+  "species.dt_mario_mixup.mega_snowmans_land_spruce": "Mega Snowman's Land Spruce",
+  "species.dt_mario_mixup.mega_soda_jungle": "Mega Soda Jungle",
+  "species.dt_mario_mixup.soda_cocoa": "Soda Cocoa",
+  "species.dt_mario_mixup.soda_jungle": "Soda Jungle",
+  "species.dt_mario_mixup.soda_jungle_undergrowth": "Soda Jungle Undergrowth",
+  "species.dt_mario_mixup.super_acorn": "Super Acorn",
+  "species.dt_mario_mixup.super_leaf": "Super Leaf",
+  "species.dt_mario_mixup.turnip_kingdom_mushroom": "Turnip Kingdom Mushroom",
+
+  "item.dt_mario_mixup.kingdom_mushroom_seed": "Kingdom Mushroom Cap",
+  "item.dt_mario_mixup.mario_palm_seed": "Palm Seed",
+  "item.dt_mario_mixup.super_acorn_seed": "Super Acorn",
+  "item.dt_mario_mixup.super_leaf_seed": "Super Leaf Seeds"
+}

@@ -1,0 +1,6 @@
+{
+  "multipart": [
+    { "apply": { "model": "mario:block/world_3_grass" } },
+    { "apply": { "model": "dynamictrees:block/roots" } }
+  ]
+}

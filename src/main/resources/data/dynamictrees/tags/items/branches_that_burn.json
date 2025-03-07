@@ -1,0 +1,6 @@
+{
+  "values": [
+    { "id": "dt_mario_mixup:acorn_branch", "required": false },
+    { "id": "dt_mario_mixup:mario_palm_branch", "required": false }
+  ]
+}

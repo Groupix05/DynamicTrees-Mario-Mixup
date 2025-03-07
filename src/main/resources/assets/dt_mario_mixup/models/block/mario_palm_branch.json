@@ -1,0 +1,7 @@
+{
+  "loader": "dynamictrees:thick_branch",
+  "textures": {
+    "bark": "mario:block/dark_oak_log",
+    "rings": "mario:block/dark_oak_log_top"
+  }
+}

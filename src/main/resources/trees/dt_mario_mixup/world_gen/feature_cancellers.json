@@ -1,0 +1,11 @@
+[
+  {
+    "__comment": "Cancel standard tree features from Mario Mixup.",
+    "only_if_loaded": [ "mario" ],
+    "select": { "name": "mario:.*" },
+    "cancellers": {
+      "type": "tree",
+      "namespace": "mario"
+    }
+  }
+]

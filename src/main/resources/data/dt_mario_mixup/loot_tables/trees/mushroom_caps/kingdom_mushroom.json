@@ -1,0 +1,49 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "chances": [
+            0.2,
+            0.2333333,
+            0.2666666,
+            0.3
+          ],
+          "condition": "minecraft:table_bonus",
+          "enchantment": "minecraft:fortune"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "mario:kingdom_mushroom_block",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mario:kingdom_mushroom_spot",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mario:red_mushroom",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "dt_mario_mixup:kingdom_mushroom_seed",
+          "weight": 1
+        }
+      ],
+      "functions": [
+        {
+          "function": "minecraft:explosion_decay"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "dt_mario_mixup:trees/mushroom_caps/kingdom_mushroom"
+}

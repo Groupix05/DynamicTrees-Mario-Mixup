@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "dt_mario_mixup:block/mario_palm_branch"
+    }
+  }
+}

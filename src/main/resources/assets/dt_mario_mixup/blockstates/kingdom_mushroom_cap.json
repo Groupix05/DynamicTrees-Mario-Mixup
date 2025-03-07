@@ -1,0 +1,169 @@
+{
+  "multipart": [
+    {
+      "apply": [
+        {
+          "model": "mario:block/kingdom_mushroom_block",
+          "uvlock": true,
+          "weight": 3
+        },
+        {
+          "model": "mario:block/kingdom_mushroom_spot",
+          "uvlock": true,
+          "weight": 1
+        }
+      ],
+      "when": {
+        "north": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/mushroom_block_inside"
+      },
+      "when": {
+        "north": "false"
+      }
+    },
+    {
+      "apply": [
+        {
+          "model": "mario:block/kingdom_mushroom_block",
+          "uvlock": true,
+          "weight": 3,
+          "y": 90
+        },
+        {
+          "model": "mario:block/kingdom_mushroom_spot",
+          "uvlock": true,
+          "weight": 1,
+          "y": 90
+        }
+      ],
+      "when": {
+        "east": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/mushroom_block_inside",
+        "y": 90
+      },
+      "when": {
+        "east": "false"
+      }
+    },
+    {
+      "apply": [
+        {
+          "model": "mario:block/kingdom_mushroom_block",
+          "uvlock": true,
+          "weight": 3,
+          "y": 180
+        },
+        {
+          "model": "mario:block/kingdom_mushroom_spot",
+          "uvlock": true,
+          "weight": 1,
+          "y": 180
+        }
+      ],
+      "when": {
+        "south": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/mushroom_block_inside",
+        "y": 180
+      },
+      "when": {
+        "south": "false"
+      }
+    },
+    {
+      "apply": [
+        {
+          "model": "mario:block/kingdom_mushroom_block",
+          "uvlock": true,
+          "weight": 3,
+          "y": 270
+        },
+        {
+          "model": "mario:block/kingdom_mushroom_spot",
+          "uvlock": true,
+          "weight": 1,
+          "y": 270
+        }
+      ],
+      "when": {
+        "west": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/mushroom_block_inside",
+        "y": 270
+      },
+      "when": {
+        "west": "false"
+      }
+    },
+    {
+      "apply": [
+        {
+          "model": "mario:block/kingdom_mushroom_block",
+          "uvlock": true,
+          "weight": 3,
+          "X": 270
+        },
+        {
+          "model": "mario:block/kingdom_mushroom_spot",
+          "uvlock": true,
+          "weight": 1,
+          "X": 270
+        }
+      ],
+      "when": {
+        "up": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/mushroom_block_inside",
+        "x": 270
+      },
+      "when": {
+        "up": "false"
+      }
+    },
+    {
+      "apply": [
+        {
+          "model": "mario:block/kingdom_mushroom_block",
+          "uvlock": true,
+          "weight": 3,
+          "y": 90
+        },
+        {
+          "model": "mario:block/kingdom_mushroom_spot",
+          "uvlock": true,
+          "weight": 1,
+          "y": 90
+        }
+      ],
+      "when": {
+        "down": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/mushroom_block_inside",
+        "x": 90
+      },
+      "when": {
+        "down": "false"
+      }
+    }
+  ]
+}

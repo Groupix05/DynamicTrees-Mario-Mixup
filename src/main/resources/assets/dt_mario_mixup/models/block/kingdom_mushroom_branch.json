@@ -1,0 +1,7 @@
+{
+  "loader": "dynamictrees:thick_branch",
+  "textures": {
+    "bark": "mario:block/kingdommushroomstem",
+    "rings": "mario:block/kingdommushroomstemtop"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "primitive_log": "mario:acorn_log",
+  "common_leaves": "dt_mario_mixup:acorn",
+  "common_species": "dt_mario_mixup:super_acorn",
+  "conifer_variants": true,
+  "generate_stripped_branch": false,
+  "generate_surface_root": true,
+  "max_branch_radius": 24
+}
