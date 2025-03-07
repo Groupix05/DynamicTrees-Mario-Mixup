@@ -1,13 +1,13 @@
 license="MIT"
 modLoader="javafml"
 loaderVersion="47"
-issueTrackerURL="https://github.com/DynamicTreesTeam/DynamicTrees/issues"
+issueTrackerURL="https://github.com/Groupix05/DynamicTrees-Mario-Mixup/issues"
 
 [[mods]]
 modId="dt_mario_mixup"
 version="${file.jarVersion}"
 displayName="Dynamic Trees for Mario Mixup"
-displayURL="https://www.curseforge.com/minecraft/mc-mods/dynamictrees"
+displayURL="https://www.curseforge.com/minecraft/mc-mods/dynamic-trees-mario-mixup"
 logoFile="logo.png"
 credits=""
 authors="WenXin2"
